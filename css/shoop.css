@@ -1,0 +1,48 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: rgb(0,212,255);
+    background: linear-gradient(90deg, rgba(0,212,255,1) -22%, rgba(52,23,23,1) 0%, rgba(226,226,226,1) 100%);
+    color: aquamarine;
+    text-align: center;
+}
+.card {
+    background-color: grey;
+    color: aquamarine;
+    text-align: center;
+}
+.card > img{
+    width: 100%;
+}
+.navbar-toggler {
+    background-color: white;
+}
+
+.card-body > p > a {
+    text-decoration: none;
+    color: aquamarine;
+}
+
+.card-body > a {
+    text-decoration: none;
+    color: aquamarine;
+}
+.center{
+    display: flex;
+    justify-content: center;
+}
+.container {
+    display: flex;
+    justify-content: center;
+}
+.nn{
+    display:flex;
+    justify-content:center;
+}
+.ratio{
+    width: 300px;
+}
+

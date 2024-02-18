@@ -1,0 +1,70 @@
+﻿body {
+    background: rgb(0,212,255);
+    background: linear-gradient(90deg, rgba(0,212,255,1) -22%, rgba(0,0,0,1) 0%, rgba(24,108,66,1) 100%);
+}
+.navbar{
+    margin:0;
+    padding:0;
+}
+.drop{
+
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: repeat(1);
+}
+button{
+    color:white;
+}
+.left {
+    grid-column: 1/3;
+}
+
+.center {
+    grid-column: 3/11;
+}
+
+.right {
+    grid-column: 11/13;
+    color: aquamarine;
+}
+
+.right>img {
+    width: 100px;
+}
+
+
+.logo{
+    width: 100px;
+}
+.navbar {
+    background-color: black; 
+}
+.nav-link{
+    color: aquamarine;
+}
+.left{
+    color: aquamarine;
+}
+li>a{
+    text-decoration: none;
+    color: aquamarine;
+  
+}
+.card{
+  
+    background-color: grey;
+    color: aquamarine;
+}
+.navbar-toggler  {
+    background-color:  white;
+}
+.card-body>p>a{
+    text-decoration: none;
+    color: aquamarine;
+}
+.card-body > a {
+    text-decoration: none;
+    color: aquamarine;
+}
